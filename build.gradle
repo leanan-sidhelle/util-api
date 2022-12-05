@@ -35,7 +35,7 @@ repositories {
 }
 
 dependencies {
-    implementation "ch.qos.logback:logback-classic:1.4.5" //TODO:is this the correct logging dependency to integrate into spring and gradle later????
+    api "ch.qos.logback:logback-classic:1.4.5" //TODO:is this the correct logging dependency to integrate into spring and gradle later????
 }
 
 testing {
